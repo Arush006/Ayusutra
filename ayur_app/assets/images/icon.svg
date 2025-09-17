@@ -1,0 +1,19 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="512" cy="512" r="512" fill="#00BFA5"/>
+  
+  <!-- Inner Circle -->
+  <circle cx="512" cy="512" r="400" fill="#FFFFFF" fill-opacity="0.1"/>
+  
+  <!-- Ayur-Sutra Logo Text -->
+  <text x="512" y="450" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="80" font-weight="bold">AYUR</text>
+  <text x="512" y="550" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="80" font-weight="bold">SUTRA</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="512" cy="350" r="20" fill="#FFFFFF" fill-opacity="0.8"/>
+  <circle cx="450" cy="380" r="15" fill="#FFFFFF" fill-opacity="0.6"/>
+  <circle cx="574" cy="380" r="15" fill="#FFFFFF" fill-opacity="0.6"/>
+  
+  <!-- Bottom Decorative Line -->
+  <rect x="412" y="620" width="200" height="4" rx="2" fill="#FFFFFF" fill-opacity="0.8"/>
+</svg>
