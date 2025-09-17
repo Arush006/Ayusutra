@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Ayur-Sutra",
+    "slug": "ayur-sutra",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "description": "Comprehensive Ayurvedic healthcare management app with doctor and patient interfaces",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "ayursutra",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00BFA5"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ayursutra.app",
+      "buildNumber": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#00BFA5"
+      },
+      "package": "com.ayursutra.app",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.CAMERA",
+        "android.permission.NOTIFICATIONS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-localization",
+      "expo-font"
+    ],
+    "locales": {
+      "en": "./src/locales/en.json",
+      "hi": "./src/locales/hi.json"
+    }
+  }
+}
